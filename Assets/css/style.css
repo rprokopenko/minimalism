@@ -1,0 +1,322 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #241E20;
+}
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+
+
+
+
+
+
+
+/*============Header=================*/
+
+.header{
+    width: 100%;
+    margin-top: 95px;
+}
+
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header__link{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 30px;
+    text-decoration: none;
+
+    color: #FFFFFF;
+
+    margin-right: 67px;
+
+    transition: all .2s ease;
+}
+
+.header__link:last-child{
+    margin-right: 0;
+}
+
+
+.header__link:hover{
+    border-bottom: 4px solid #FFFFFF;
+}
+
+
+
+.header__total{
+    display: flex;
+    align-items: center;
+}
+
+.header__basket{
+    cursor: pointer;
+}
+
+.total__text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+
+    padding-left: 12px;
+    padding-right: 18px;
+}
+
+
+
+
+/*============Intro=================*/
+
+
+.intro{
+    width: 100%;
+    margin-top: 294px;
+    margin-left: auto;
+    margin-bottom: 342px;
+}
+
+.intro__title{
+    font-family: Yellowtail;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 98px;
+
+    color: #FFFFFF;
+
+    margin-bottom: 20px;
+}
+
+.intro__quote{
+    width: 664px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+
+    color: rgba(255, 255, 255, 0.54);
+}
+
+
+
+
+
+/*==========About============*/
+
+.about__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.background-plus{
+    width: 100%;
+    max-width: 756px;
+    position: absolute;
+    left: -100px;
+    top: -577px;
+    z-index: -2;
+}
+
+.title{
+    font-family: Yellowtail;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 87px;
+
+    color: #FFFFFF;
+
+    margin-right: 270px;
+}
+
+.about__text{
+    width: 430px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+
+    color: rgba(255, 255, 255, 0.54);
+}
+
+.block1{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-right: 170px;
+}
+
+.block2{
+    margin-bottom: 92px;
+    margin-right: 0;
+}
+
+.block3{
+    margin-right: 143px;
+}
+
+
+
+
+/*==========Services============*/
+
+.services{
+    margin-top: 260px;
+}
+
+.services__blocks{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 61px;
+}
+
+.services__block{
+    width: 360px;
+}
+
+.sblock1{
+    margin-top: 177px;
+}
+
+.sblock3{
+    margin-top: 243px;
+}
+
+
+.block__content{
+    display: flex;
+    justify-content:space-between;
+    padding: 12px 20px 0 10px;
+    position: relative;
+}
+
+.block__img{
+    box-shadow: 0px 8px 40px rgba(255, 255, 255, 0.25);
+}
+
+.block__charakter{
+    padding: 19px 0 0 0;
+}
+
+.block__title{
+    width: 115px;
+    height: 102px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+}
+
+
+.line{
+    position: absolute;
+    bottom: 70px;
+    z-index: 3;
+    min-width: 136px;
+    min-height: 4px;
+    background-color: #FFFFFF;
+}
+
+.block-value{
+    right: 35px;
+    bottom: 40px;
+}
+
+
+.block__timer{
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+
+.timer__text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    
+    color: #FFFFFF;
+    margin-left: 7px;
+    margin-top: auto;
+}
+
+.block__team{
+    display: flex;
+    margin-bottom: 67px;
+
+}
+
+.team__text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    
+    color: #FFFFFF;
+    margin-left: 7px;
+    margin-top: auto;
+}
+
+
+.block__value{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #FFFFFF;
+
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
