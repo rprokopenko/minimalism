@@ -222,10 +222,25 @@ body{
 
 .sblock1{
     margin-top: 177px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+}
+
+.sblock2{
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: bounce-2;
+    animation-timing-function: linear;
 }
 
 .sblock3{
     margin-top: 243px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: bounce-1;
+    animation-timing-function: linear;
 }
 
 
@@ -321,7 +336,28 @@ body{
     color: #FFFFFF;
 
     margin-left: 30px;
+
+    cursor: pointer;
 }
+
+
+
+
+/*======Animation block==========*/
+
+@keyframes bounce-1 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+
+@keyframes bounce-2 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-7px); }
+    100% { transform: translateY(0); }
+}
+
 
 
 
@@ -371,7 +407,7 @@ body{
     margin-right: 0;
 }
 
-.galerry__item:nth-child(5){
+.galerry__item:nth-child(6){
     margin-right: 0;
 }
 
@@ -534,7 +570,92 @@ textarea.contact__form__text {
 
 
 
+/*============Adaptive================*/
 
+
+@media screen and (min-width:1200px){
+    
+}
+
+
+@media screen and (max-width:1199px){
+    .container{
+        width: 960px;
+    }
+
+    .services__blocks{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .services__block{
+        margin: 0 auto;
+    }
+
+    @keyframes bounce-1 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-10px); }
+        100% { transform: translateY(0); }
+    }
+    
+    
+    @keyframes bounce-2 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-10px); }
+        100% { transform: translateY(0); }
+    }
+
+    .sblock1{
+        margin-top: 100px;
+    }
+    .sblock2{
+        margin-top: 100px;
+    }
+
+    .sblock3{
+        margin-top: 100px;
+    }
+
+    .galerry{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .imgfirst{
+        margin-bottom: 20px;
+    }
+
+    .galerry__image{
+        width: 424px;
+        margin-bottom: 20px;
+    }
+    .gallery__col{
+        
+    }
+
+
+}
+
+@media screen and (max-width:991px){
+    .container{
+        width: 720px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .container{
+        width: 540px;
+    }
+
+}
+
+@media screen and (max-width:575px){
+    .container{
+        width: 100%;
+        padding: 0 15px;
+    }
+}
 
 
 
