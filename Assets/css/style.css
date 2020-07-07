@@ -222,25 +222,15 @@ body{
 
 .sblock1{
     margin-top: 177px;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-name: bounce-1;
-    animation-timing-function: linear;
+    
 }
 
 .sblock2{
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-name: bounce-2;
-    animation-timing-function: linear;
+    
 }
 
 .sblock3{
     margin-top: 243px;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-name: bounce-1;
-    animation-timing-function: linear;
 }
 
 
@@ -345,18 +335,6 @@ body{
 
 /*======Animation block==========*/
 
-@keyframes bounce-1 {
-    0%   { transform: translateY(0); }
-    50%  { transform: translateY(-10px); }
-    100% { transform: translateY(0); }
-}
-
-
-@keyframes bounce-2 {
-    0%   { transform: translateY(0); }
-    50%  { transform: translateY(-7px); }
-    100% { transform: translateY(0); }
-}
 
 
 
@@ -422,6 +400,7 @@ body{
 
 .contact{
     margin-top: 222px;
+    position: relative;
 }
 
 .contact__inner{
@@ -429,6 +408,7 @@ body{
     align-items: center;
     justify-content: space-between;
     margin: 0 49px;
+    
 }
 
 .contact__form{
@@ -568,6 +548,21 @@ textarea.contact__form__text {
     margin-left: 12px;
 }
 
+.burger {
+    display: none;
+    cursor: pointer;
+    margin-left: 40px;
+    position: relative;
+    z-index: 5;
+  }
+  
+  .burger div {
+    width: 45px;
+    height: 5px;
+    background-color: #fff;
+    margin: 5px;
+  }
+
 
 
 /*============Adaptive================*/
@@ -590,21 +585,9 @@ textarea.contact__form__text {
     }
 
     .services__block{
-        margin: 0 auto;
+        margin: 0 60px;
     }
 
-    @keyframes bounce-1 {
-        0%   { transform: translateY(0); }
-        50%  { transform: translateY(-10px); }
-        100% { transform: translateY(0); }
-    }
-    
-    
-    @keyframes bounce-2 {
-        0%   { transform: translateY(0); }
-        50%  { transform: translateY(-10px); }
-        100% { transform: translateY(0); }
-    }
 
     .sblock1{
         margin-top: 100px;
@@ -620,18 +603,35 @@ textarea.contact__form__text {
     .galerry{
         flex-wrap: wrap;
         justify-content: center;
+        display: flex;
+        flex-direction: column;
     }
 
-    .imgfirst{
-        margin-bottom: 20px;
-    }
 
     .galerry__image{
         width: 424px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+        
     }
     .gallery__col{
-        
+        margin: 0 auto;
+    }
+
+
+    .contact__img{
+        display: none;
+    }
+
+    .contact__inner{
+        justify-content: center;
+    }
+
+    .contact__form{
+        margin-top: 40px;
+    }
+
+    .number4{
+        text-align: center;
     }
 
 
@@ -641,11 +641,81 @@ textarea.contact__form__text {
     .container{
         width: 720px;
     }
+
+    .sblock1{
+        margin-top: 150px;
+    }
+
+    .header__nav{
+        display: none;
+    }
+
+    .header__total{
+        display: none;
+    }
+
+    .burger{
+        display: block;
+    }
 }
 
 @media screen and (max-width:767px){
     .container{
         width: 540px;
+    }
+
+    .footer__copyright{
+        font-size: 16px;
+    }
+
+    .social__text{
+        font-size: 18px;
+    }
+
+
+    .intro__title{
+        font-size: 65px;
+    }
+
+    .intro__quote{
+        width: 500px;
+    }
+
+    .number2{
+        text-align: center;
+    }
+
+    .number1{
+        text-align: center;
+        margin:0;
+    }
+
+    .about__text{
+        margin: 40px 0;
+    }
+
+    .block3{
+        margin: 0;
+    }
+
+    .about__inner{
+        align-items: center;
+    }
+
+    .services{
+        margin-top: 150px;
+    }
+
+    .intro{
+        margin-bottom: 400px;
+    }
+
+    
+    .background-plus{
+        
+        left: -100px;
+        top: -770px;
+        
     }
 
 }
@@ -654,6 +724,19 @@ textarea.contact__form__text {
     .container{
         width: 100%;
         padding: 0 15px;
+    }
+
+    .intro__quote{
+        width: 400px;
+    }
+
+    .footer__inner{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footer__copyright{
+        margin-top: 40px;
     }
 }
 
