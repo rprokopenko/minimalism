@@ -751,7 +751,6 @@ textarea.contact__form__text {
 
     .galerry__image{
         width: 200px;
-        
     }
 
 
@@ -775,24 +774,24 @@ textarea.contact__form__text {
     }
     
     #name{
-        width: 209px;;
+        width: 109px;;
     }
     
     #email{
-        width: 250px;
+        width: 100px;
     }
     
     textarea.contact__form__text::placeholder{
         border-bottom: 4px solid #FFFFFF;
         padding-bottom: 6px;
-        width: 170px;
+        width: 100px;
     }
     
     
     
     textarea.contact__form__text {
         resize: none;
-        min-width: 250px;
+        min-width: 100px;
         height: 165px;
     }
 
