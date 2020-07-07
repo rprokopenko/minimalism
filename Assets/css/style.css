@@ -726,8 +726,18 @@ textarea.contact__form__text {
         padding: 0 15px;
     }
 
+    .intro__title{
+        font-size: 55px;
+    }
     .intro__quote{
-        width: 350px;
+        width: 250px;
+    }
+
+    .block__img{
+        width: 100%;
+    }
+    .services__block{
+        width: 100%;
     }
 
     .footer__inner{
@@ -740,9 +750,63 @@ textarea.contact__form__text {
     }
 
     .galerry__image{
-        width: 300px;
+        width: 200px;
         
     }
+
+
+    .contact__form__text{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 30px;
+        background: #241E20;
+        outline: none;
+        border: 0;
+        border-bottom: 4px solid #FFFFFF;
+        padding-bottom: 6px;
+        margin-bottom: 25px;
+    
+        color: rgba(255, 255, 255, 0.54);
+    }
+    
+    #name{
+        width: 209px;;
+    }
+    
+    #email{
+        width: 250px;
+    }
+    
+    textarea.contact__form__text::placeholder{
+        border-bottom: 4px solid #FFFFFF;
+        padding-bottom: 6px;
+        width: 170px;
+    }
+    
+    
+    
+    textarea.contact__form__text {
+        resize: none;
+        min-width: 250px;
+        height: 165px;
+    }
+
+    .footer__inner{
+        
+        margin: 0;
+        
+    }
+
+
+    .about__text{
+        width: 250px;
+    }
+    
 
 }
 
