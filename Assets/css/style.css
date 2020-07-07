@@ -738,6 +738,11 @@ textarea.contact__form__text {
     .footer__copyright{
         margin-top: 40px;
     }
+
+    .galerry__image{
+        width: 300px;
+        
+    }
 }
 
 
